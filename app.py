@@ -1,7 +1,9 @@
 import streamlit as st
 
-st.set_page_config(page_title="OPL Auction")
+st.set_page_config(layout="wide")
 
-st.title("🏏 OPL Auction System")
+st.title("🏏 OPL Season 6 Analytics")
 
-st.success("Streamlit is working!")
+st.write(
+    "Use the navigation menu on the left to access Player Analytics."
+)
